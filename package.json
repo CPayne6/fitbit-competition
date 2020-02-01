@@ -1,0 +1,31 @@
+{
+  "name": "fitbit-competition",
+  "version": "1.0.0",
+  "description": "An app that allows you to compete with your friends in fitness",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CPayne6/fitbit-competition.git"
+  },
+  "author": "Chris Payne, Alec Glover",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CPayne6/fitbit-competition/issues"
+  },
+  "homepage": "https://github.com/CPayne6/fitbit-competition#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "express-pino-logger": "^4.0.0",
+    "nodemon": "^2.0.2"
+  }
+}
